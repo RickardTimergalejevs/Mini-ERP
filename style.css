@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bahnschrift';
+}
+
+header {
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    padding: 10rem;
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
+.product, .post {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+body {
+    background-color: white;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+    padding: 4rem;
+}
+
+.titles-product {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.produkt-image {
+    display: flex;
+}
+
+.order {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4rem;
+}
+
+.content {
+    width: 400px;
+    padding: 10px;
+}
